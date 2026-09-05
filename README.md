@@ -7,11 +7,11 @@ For this project, I wanted to see how different machine learning models perform 
 
 I worked with a dataset containing transaction information such as transaction amount, number of declines, whether the transaction was foreign, whether it came from a high-risk country, and chargeback information. I cleaned the data, explored the relationships between the variables, and then trained several classification models to compare their performance.
 
-The main goal was not just to get the highest accuracy, but to see how different models handle fraud detection and the tradeoff between **precision and recall**.
+The main goal was not just to get the highest accuracy, but to see how different models handle fraud detection and the tradeoff between precision and recall.
 
 ## Dataset
 
-The dataset contains **3,075 transactions and 12 columns**.
+The dataset contains 3,075 transactions and 12 columns.
 
 Some of the main features include:
 
@@ -87,7 +87,7 @@ For example, the XGBoost model had an accuracy of 0.99, precision of 0.99, recal
 
 The balanced models were interesting because they were able to identify almost all of the fraudulent transactions, with recall around 0.99. However, their precision was lower. In other words, they caught more fraud but also classified more legitimate transactions as fraudulent.
 
-That was one of the biggest things I took away from the project: **accuracy alone isn't enough for a fraud detection problem.** Depending on the situation, missing a fraudulent transaction and incorrectly flagging a legitimate one can have very different consequences.
+That was one of the biggest things I took away from the project: accuracy alone isn't enough for a fraud detection problem. Depending on the situation, missing a fraudulent transaction and incorrectly flagging a legitimate one can have very different consequences.
 
 ## Evaluation
 
